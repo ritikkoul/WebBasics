@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Box Shadow and Text Shadow</title>
+    <style>
+        .container{
+            display: flex;
+        }
+        .card
+    {
+        padding: 23px 12px;
+        margin:23px 12px;
+        background-color: burlywood;
+border-radius: 32px;
+box-shadow:  2px 2px rgb(170, 252, 47); 
+/* box-shadow: inset 2px 2px rgb(170, 252, 47);   for shadow in upper part of box direction reversed */
+ }
+    .card h2{
+        text-shadow: 3px 4px greenyellow;
+    }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="card" id="card1">
+<h2>This is HTML COURSE</h2>
+<p>I have started learning HTML </p></div>
+        <div class="card" id="card2">
+        <h2>This is CSS COURSE</h2>
+        <p>I have learned about css</p></div>
+        <div class="card" id="card3">
+            <h2>Card3</h2>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolorum quia explicabo in doloribus sit ratione, est distinctio vitae magni maiores dicta voluptate sint nulla quasi doloremque ad provident ipsum inventore.</p>
+        </div>
+
+    </div>
+</body>
+</html>
